@@ -1,0 +1,15 @@
+{
+  "name": "windows-mcp",
+  "version": "0.3.2",
+  "description": "Windows MCP Server for desktop automation and Windows OS integration",
+  "platforms": ["win32"],
+  "mcpServers": {
+    "windows": {
+      "command": "${embeddedPythonPath}",
+      "args": ["main.py"],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}

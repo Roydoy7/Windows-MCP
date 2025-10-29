@@ -1,0 +1,11 @@
+{
+  "name": "@google/windows-mcp-extension",
+  "version": "0.3.2",
+  "description": "Windows MCP Server extension for Gemini CLI",
+  "private": true,
+  "scripts": {
+    "postinstall": "node install-deps.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
