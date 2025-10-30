@@ -1,3 +1,8 @@
+import sys
+import os
+# Add the parent directory to sys.path to allow importing src module
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from live_inspect.watch_cursor import WatchCursor
 from contextlib import asynccontextmanager
 from fastmcp.utilities.types import Image
